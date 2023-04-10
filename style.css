@@ -95,7 +95,13 @@ h1
 }
 #best_seller .bs_item
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
     text-align: center;
+
     padding: 2rem 0;
 }
 #best_seller .bs_item img
@@ -217,7 +223,57 @@ h1
     background-image: url(images/bg_decorated.png);
     background-size: cover;
 }
+#testimonials h1
+{
+    text-align: center;
+    margin-bottom: 2rem;
+}
 #testimonials p, h3
 {
     text-align: end;
 }
+
+/*App_Suggestion*/ /*App_Suggestion*/ /*App_Suggestion*/ /*App_Suggestion*/
+/*App_Suggestion*/ /*App_Suggestion*/ /*App_Suggestion*/ /*App_Suggestion*/
+
+#app_suggestion
+{
+    text-align: center;
+    padding: 200px 0;
+    background-image: url(images/bg_decorated1.png);
+    background-size: cover;
+}
+#app_suggestion h1
+{
+    font-size: 4rem;
+}
+#app_suggestion h2
+{
+    font-family: futura;
+}
+#app_suggestion a
+{
+    text-decoration: none;
+    background-color: #ffc200;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 0.5rem 1.5rem;
+    color: rgba(0, 0, 0, 0.712);
+    font-family: futura;
+}
+
+/*Footer*/ /*Footer*/ /*Footer*/ /*Footer*/
+/*Footer*/ /*Footer*/ /*Footer*/ /*Footer*/
+
+#footer
+{
+    min-height: 250px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+}
+.icon_container
+{
+    padding-top: 50px;
+}
+
