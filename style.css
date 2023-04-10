@@ -1,0 +1,223 @@
+*
+{
+    scroll-behavior: smooth;
+}
+
+
+/*Universal*/ /*Universal*/ /*Universal*/ /*Universal*/
+h1
+{
+    font-family: paladise_script;
+}
+/*Universal*/ /*Universal*/ /*Universal*/ /*Universal*/
+#navigation_bar
+{
+    padding: 0 3%;
+}
+#navigation_bar a
+{
+    color: aliceblue;
+    font-family: calibril;
+    font-size: larger;
+    font-weight: bolder;
+}
+#navigation_bar .logo
+{
+    max-width: 150px;
+}
+.nav_header
+{
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    background-image: url(images/header_image.jpg);
+    background-size: cover;
+}
+.header_content
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/header_bg_black.png);
+    background-size: cover;
+}
+.header_text
+{
+    max-width: 600px;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    margin-left: 5%;
+}
+.header_text h1
+{
+    color: #ffc200;
+    font-family: paladise_script;
+    font-size: 5em;
+    font-weight: 200;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.479);
+}
+.header_text p
+{
+    color: #fff;
+    font-family: calibril;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.479);
+}
+.header_text a
+{
+    max-width: 10em;
+    padding: 0.8em;
+
+    text-decoration: none;
+    text-align: center; 
+
+    font-size: larger;
+    letter-spacing: 0.1em;
+    font-family: futura;
+    font-weight: bolder;
+
+    color: rgb(58, 58, 58);
+    background-color: #ffc200;
+    border-radius: 0.5em;
+
+}
+
+/*Best seller*/ /*Best seller*/ /*Best seller*/ /*Best seller*/
+/*Best seller*/ /*Best seller*/ /*Best seller*/ /*Best seller*/
+
+#best_seller .bs_text
+{
+    text-align: center;
+    max-width: 50%;
+    margin: 3rem auto;
+}
+#best_seller .bs_item
+{
+    text-align: center;
+    padding: 2rem 0;
+}
+#best_seller .bs_item img
+{
+    max-width: 150px;
+    border-radius: 50%;
+}
+#best_seller .bs_item p
+{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/*Specified_item*/ /*Specified_item*/ /*Specified_item*/ /*Specified_item*/
+/*Specified_item*/ /*Specified_item*/ /*Specified_item*/ /*Specified_item*/
+#specified_item
+{
+    width: 100%;
+    min-height: 600px;
+    margin: 3rem 0 0 0;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+#specified_item h1, .statistics_title h1, #specified_item2 h1
+{
+    color: #ffc200;
+    font-size: 5em;
+    font-weight: 200;
+}
+#specified_item p, #specified_item2 p
+{
+    color: #fff;
+    font-family: calibril;
+}
+#specified_item img
+{
+    max-width: 400px;
+}
+.si_text
+{
+    max-width: 400px;
+}
+.si_text a, #specified_item2 a
+{
+    max-width: 10em;
+    padding: 0.8em;
+
+    text-decoration: none;
+    text-align: center; 
+
+    font-size: larger;
+    letter-spacing: 0.1em;
+    font-family: futura;
+    font-weight: bolder;
+
+    color: rgb(58, 58, 58);
+    background-color: #ffc200;
+    border-radius: 0.5em;
+}
+
+/*statistics*/ /*statistics*/ /*statistics*/ /*statistics*/
+/*statistics*/ /*statistics*/ /*statistics*/ /*statistics*/
+#statistics
+{
+    width: 100%;
+    min-height: 600px;
+    background-image: url(images/bg_squre.jpg);
+    background-size: cover;
+}
+.statistics_title
+{
+    text-align: center;
+}
+.statistics_title p
+{
+    color: #fff;
+}
+.s_item
+{
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s_item h2
+{
+    color: #ffc200;
+    font-family: futura;
+}
+.s_item h3
+{
+    color: white;
+}
+
+/*Specified_item*/ /*Specified_item*/ /*Specified_item*/ /*Specified_item*/
+/*Specified_item*/ /*Specified_item*/ /*Specified_item*/ /*Specified_item*/
+#specified_item2
+{
+    min-height: 500px;
+    background-image: url(images/bg_rotate.png);
+    background-size: cover;
+
+}
+
+/*Testimonials*/ /*Testimonials*/ /*Testimonials*/ /*Testimonials*/
+/*Testimonials*/ /*Testimonials*/ /*Testimonials*/ /*Testimonials*/
+#testimonials
+{
+    width: 100%;
+    padding: 200px 0;
+    background-image: url(images/bg_decorated.png);
+    background-size: cover;
+}
+#testimonials p, h3
+{
+    text-align: end;
+}
